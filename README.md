@@ -23,7 +23,7 @@ cd farmaPNT
 npm run serve
 ```
 
-La aplicación está en la raíz del servidor local; el tutorial, en tutorial.html. No uses file://. Mientras se prepara la versión inicial, el desarrollo se encuentra en feature/farmapnt. Las rutas relativas se prueban bajo /farmaPNT/ y permiten otro prefijo sin modificar los módulos.
+La aplicación está en la raíz del servidor local; el tutorial, en tutorial.html. No uses file://. La versión inicial está incorporada a main. Para mejoras posteriores, crea una rama y abre una PR. Las rutas relativas se prueban bajo /farmaPNT/ y permiten otro prefijo sin modificar los módulos.
 
 ## Verificar
 
@@ -38,7 +38,7 @@ Node usa su runner sin dependencias. Las pruebas de navegador requieren Playwrig
 
 En Settings → Pages → Source selecciona GitHub Actions. La fusión a main dispara pages.yml: pruebas, empaquetado de aplicación/assets/docs y publicación. ci.yml prueba Node en push y PR; el navegador se ejecuta por separado. No hay CNAME.
 
-URL prevista: https://ramonmorillo.github.io/farmaPNT/. GitHub puede servirla en el dominio personalizado del propietario conservando /farmaPNT/. Comprueba la URL efectiva del despliegue y el tutorial antes de publicar enlaces en el taller. Una rama subida no implica publicación.
+Publicación confirmada por GitHub Pages: **https://ramonmorillo.es/farmaPNT/**. Tutorial: **https://ramonmorillo.es/farmaPNT/tutorial.html**. El repositorio usa el dominio personalizado heredado del propietario conservando /farmaPNT/. Verifica cada nuevo despliegue antes de anunciar cambios: una rama subida no implica publicación.
 
 ## Límites
 

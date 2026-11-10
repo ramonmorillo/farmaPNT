@@ -24,3 +24,7 @@ Validación local del 10 de noviembre de 2026:
 - Seis documentos docentes, prompts copiables, progreso/restablecimiento, enlaces locales bajo /farmaPNT/ y alternativa Markdown sin JavaScript: aprobados.
 
 No hay validación clínica o de usuarios institucionales, certificación de accesibilidad ni pruebas visuales en todos los navegadores. Las comprobaciones anteriores son locales. La activación, CI y publicación se registran por separado y no se dan por hechas por haber subido código.
+
+## Publicación observada
+
+GitHub Pages confirmó el despliegue inicial del commit 5a70000 en https://github.com/ramonmorillo/farmaPNT/actions/runs/42853222612, con destino ramonmorillo.es/farmaPNT/. La CI de main también terminó correctamente. La prueba funcional se ejecutó localmente; esta observación remota confirma el despliegue y no se presenta como una prueba de navegador sobre el dominio publicado. La ficha del taller se incorpora después de comprobar ese resultado.
